@@ -5,8 +5,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "Andres Velasquez"
+      user-mail-address "andresf40y0@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -82,9 +82,4 @@
  :config
  (setq! gptel-api-key "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"))
 
-
-;;(after! org
-  ;;(org-babel-do-load-languages
-   ;;'org-babel-load-languages
-   ;;(append org-babel-load-languages
-           ;;'((scheme . t))))
+(setq projectile-project-search-path '("~/coding/"))
